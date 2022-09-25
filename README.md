@@ -1,4 +1,4 @@
-# ToDo & Post & Photo App
+# Posts & Photos & ToDo App
 
 ### Tools
 - MVVM
@@ -7,7 +7,7 @@
 - CoreData
 - URLSession
 
-### Posts & Photos Screen 
+### Posts & Photos & ToDo Screen 
  <p>
 <img src="images/page1.png" width="32%" />
 <img src="images/page2.png" width="32%" />
