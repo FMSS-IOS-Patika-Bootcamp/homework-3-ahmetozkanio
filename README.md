@@ -15,9 +15,9 @@
 
 ### ToDo Screen
 <p>
-<img src="images/toDoAddPage.png" width="35%" />
-<img src="images/toDos1.png" width="35%" />
-<img src="images/detail1.png" width="35%" />
-<img src="images/detail2.png" width="35%" />
-<img src="images/toDos2.png" width="35%" />
+<img src="images/toDoAddPage.png" width="19%" />
+<img src="images/toDos1.png" width="19%" />
+<img src="images/detail1.png" width="19%" />
+<img src="images/detail2.png" width="19%" />
+<img src="images/toDos2.png" width="19%" />
 </p>
