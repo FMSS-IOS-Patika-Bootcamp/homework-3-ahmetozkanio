@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486E8B2D28E0635000E7B62D /* ToDoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8B2C28E0635000E7B62D /* ToDoDetailViewController.swift */; };
+		48A52A4728DB15F500E11299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A4628DB15F500E11299 /* AppDelegate.swift */; };
+		48A52A4928DB15F500E11299 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A4828DB15F500E11299 /* SceneDelegate.swift */; };
+		48A52A4E28DB15F500E11299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A4C28DB15F500E11299 /* Main.storyboard */; };
+		48A52A5128DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A4F28DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodeld */; };
+		48A52A5328DB15FC00E11299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A5228DB15FC00E11299 /* Assets.xcassets */; };
+		48A52A5628DB15FC00E11299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A5428DB15FC00E11299 /* LaunchScreen.storyboard */; };
+		48A52A6B28DB17D700E11299 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A6928DB17D700E11299 /* TabBarViewController.swift */; };
+		48A52A6E28DB18C000E11299 /* PostsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A6D28DB18C000E11299 /* PostsView.storyboard */; };
+		48A52A7028DB18D900E11299 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A6F28DB18D900E11299 /* PostsViewController.swift */; };
+		48A52A7228DB19F100E11299 /* PhotosView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A7128DB19F100E11299 /* PhotosView.storyboard */; };
+		48A52A7428DB19FF00E11299 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A7328DB19FF00E11299 /* PhotosViewController.swift */; };
+		48A52A7628DB1A8600E11299 /* ToDoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A7528DB1A8600E11299 /* ToDoView.storyboard */; };
+		48A52A7828DB1A9600E11299 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A7728DB1A9600E11299 /* ToDoViewController.swift */; };
+		48A52A7A28DB1EDE00E11299 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A7928DB1EDE00E11299 /* PostsViewModel.swift */; };
+		48A52A7F28DB1FBD00E11299 /* PostsViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A7D28DB1FBD00E11299 /* PostsViewTableViewCell.swift */; };
+		48A52A8028DB1FBD00E11299 /* PostsViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A7E28DB1FBD00E11299 /* PostsViewTableViewCell.xib */; };
+		48A52A8228DB309700E11299 /* PostsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8128DB309700E11299 /* PostsEntity.swift */; };
+		48A52A8428DB30A600E11299 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8328DB30A600E11299 /* PostsModel.swift */; };
+		48A52A8728DB483200E11299 /* PhotosViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8528DB483200E11299 /* PhotosViewCollectionViewCell.swift */; };
+		48A52A8828DB483200E11299 /* PhotosViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48A52A8628DB483200E11299 /* PhotosViewCollectionViewCell.xib */; };
+		48A52A8A28DB691E00E11299 /* PhotosEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8928DB691E00E11299 /* PhotosEntity.swift */; };
+		48A52A8C28DB692C00E11299 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8B28DB692C00E11299 /* PhotosModel.swift */; };
+		48A52A8E28DB694100E11299 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A52A8D28DB694100E11299 /* PhotosViewModel.swift */; };
+		48D0EB7128DDFA22001A0B2F /* ToDoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D0EB7028DDFA22001A0B2F /* ToDoAddViewController.swift */; };
+		48F10E0928DCE07B00348FA6 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F10E0728DCE07A00348FA6 /* ToDoTableViewCell.swift */; };
+		48F10E0A28DCE07B00348FA6 /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48F10E0828DCE07A00348FA6 /* ToDoTableViewCell.xib */; };
+		48F10E0C28DCE6A900348FA6 /* ToDoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F10E0B28DCE6A900348FA6 /* ToDoModel.swift */; };
+		48F10E0E28DCE74C00348FA6 /* ToDoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F10E0D28DCE74C00348FA6 /* ToDoViewModel.swift */; };
+		48F10E1028DCE8EA00348FA6 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F10E0F28DCE8EA00348FA6 /* ToDo.swift */; };
+		ED85323754C5BE874EED7FE9 /* libPods-PatikaFmssHomework-3-ahmetozkan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0309916D27E36B951B4EBE1 /* libPods-PatikaFmssHomework-3-ahmetozkan.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		486E8B2C28E0635000E7B62D /* ToDoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailViewController.swift; sourceTree = "<group>"; };
+		48A52A4628DB15F500E11299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48A52A4828DB15F500E11299 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48A52A4D28DB15F500E11299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48A52A5028DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PatikaFmssHomework_3_ahmetozkan.xcdatamodel; sourceTree = "<group>"; };
+		48A52A5228DB15FC00E11299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48A52A5528DB15FC00E11299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48A52A5728DB15FC00E11299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48A52A6928DB17D700E11299 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		48A52A6D28DB18C000E11299 /* PostsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsView.storyboard; sourceTree = "<group>"; };
+		48A52A6F28DB18D900E11299 /* PostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		48A52A7128DB19F100E11299 /* PhotosView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PhotosView.storyboard; sourceTree = "<group>"; };
+		48A52A7328DB19FF00E11299 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		48A52A7528DB1A8600E11299 /* ToDoView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ToDoView.storyboard; sourceTree = "<group>"; };
+		48A52A7728DB1A9600E11299 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
+		48A52A7928DB1EDE00E11299 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		48A52A7D28DB1FBD00E11299 /* PostsViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewTableViewCell.swift; sourceTree = "<group>"; };
+		48A52A7E28DB1FBD00E11299 /* PostsViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsViewTableViewCell.xib; sourceTree = "<group>"; };
+		48A52A8128DB309700E11299 /* PostsEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsEntity.swift; sourceTree = "<group>"; };
+		48A52A8328DB30A600E11299 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
+		48A52A8528DB483200E11299 /* PhotosViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		48A52A8628DB483200E11299 /* PhotosViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		48A52A8928DB691E00E11299 /* PhotosEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosEntity.swift; sourceTree = "<group>"; };
+		48A52A8B28DB692C00E11299 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		48A52A8D28DB694100E11299 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		48D0EB7028DDFA22001A0B2F /* ToDoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAddViewController.swift; sourceTree = "<group>"; };
+		48F10DD628DCAAC500348FA6 /* PatikaFmssHomework-3-ahmetozkan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PatikaFmssHomework-3-ahmetozkan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F10E0728DCE07A00348FA6 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		48F10E0828DCE07A00348FA6 /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
+		48F10E0B28DCE6A900348FA6 /* ToDoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoModel.swift; sourceTree = "<group>"; };
+		48F10E0D28DCE74C00348FA6 /* ToDoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewModel.swift; sourceTree = "<group>"; };
+		48F10E0F28DCE8EA00348FA6 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		7A6FCB021583D280E7509F85 /* Pods-PatikaFmssHomework-3-ahmetozkan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatikaFmssHomework-3-ahmetozkan.release.xcconfig"; path = "Target Support Files/Pods-PatikaFmssHomework-3-ahmetozkan/Pods-PatikaFmssHomework-3-ahmetozkan.release.xcconfig"; sourceTree = "<group>"; };
+		92FB02322C666B3F76FC46A3 /* Pods-PatikaFmssHomework-3-ahmetozkan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatikaFmssHomework-3-ahmetozkan.debug.xcconfig"; path = "Target Support Files/Pods-PatikaFmssHomework-3-ahmetozkan/Pods-PatikaFmssHomework-3-ahmetozkan.debug.xcconfig"; sourceTree = "<group>"; };
+		D0309916D27E36B951B4EBE1 /* libPods-PatikaFmssHomework-3-ahmetozkan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PatikaFmssHomework-3-ahmetozkan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48A52A4028DB15F500E11299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED85323754C5BE874EED7FE9 /* libPods-PatikaFmssHomework-3-ahmetozkan.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B74C389BFCBE723B56708FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92FB02322C666B3F76FC46A3 /* Pods-PatikaFmssHomework-3-ahmetozkan.debug.xcconfig */,
+				7A6FCB021583D280E7509F85 /* Pods-PatikaFmssHomework-3-ahmetozkan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		48A52A3A28DB15F500E11299 = {
+			isa = PBXGroup;
+			children = (
+				48A52A4528DB15F500E11299 /* PatikaFmssHomework-3-ahmetozkan */,
+				2B74C389BFCBE723B56708FF /* Pods */,
+				804E99E6DBF1B656D6485BA3 /* Frameworks */,
+				48F10DD628DCAAC500348FA6 /* PatikaFmssHomework-3-ahmetozkan.app */,
+			);
+			sourceTree = "<group>";
+		};
+		48A52A4528DB15F500E11299 /* PatikaFmssHomework-3-ahmetozkan */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A5F28DB165000E11299 /* ToDo */,
+				48A52A5E28DB164700E11299 /* Photos */,
+				48A52A5D28DB163400E11299 /* Posts */,
+				48A52A4628DB15F500E11299 /* AppDelegate.swift */,
+				48A52A4828DB15F500E11299 /* SceneDelegate.swift */,
+				48A52A6928DB17D700E11299 /* TabBarViewController.swift */,
+				48A52A4C28DB15F500E11299 /* Main.storyboard */,
+				48A52A5228DB15FC00E11299 /* Assets.xcassets */,
+				48A52A5428DB15FC00E11299 /* LaunchScreen.storyboard */,
+				48A52A5728DB15FC00E11299 /* Info.plist */,
+				48A52A4F28DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodeld */,
+			);
+			path = "PatikaFmssHomework-3-ahmetozkan";
+			sourceTree = "<group>";
+		};
+		48A52A5D28DB163400E11299 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A6828DB16BF00E11299 /* Model */,
+				48A52A6728DB16BB00E11299 /* View */,
+				48A52A6628DB16B200E11299 /* ViewModel */,
+			);
+			path = Posts;
+			sourceTree = "<group>";
+		};
+		48A52A5E28DB164700E11299 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A6528DB16AB00E11299 /* Model */,
+				48A52A6428DB16A600E11299 /* View */,
+				48A52A6328DB169C00E11299 /* ViewModel */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		48A52A5F28DB165000E11299 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A6228DB167800E11299 /* Model */,
+				48A52A6028DB166600E11299 /* View */,
+				48A52A6128DB166F00E11299 /* ViewModel */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		48A52A6028DB166600E11299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A7528DB1A8600E11299 /* ToDoView.storyboard */,
+				48A52A7728DB1A9600E11299 /* ToDoViewController.swift */,
+				48F10E0728DCE07A00348FA6 /* ToDoTableViewCell.swift */,
+				48F10E0828DCE07A00348FA6 /* ToDoTableViewCell.xib */,
+				48D0EB7028DDFA22001A0B2F /* ToDoAddViewController.swift */,
+				486E8B2C28E0635000E7B62D /* ToDoDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A52A6128DB166F00E11299 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48F10E0D28DCE74C00348FA6 /* ToDoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48A52A6228DB167800E11299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48F10E0B28DCE6A900348FA6 /* ToDoModel.swift */,
+				48F10E0F28DCE8EA00348FA6 /* ToDo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48A52A6328DB169C00E11299 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A8D28DB694100E11299 /* PhotosViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48A52A6428DB16A600E11299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A7128DB19F100E11299 /* PhotosView.storyboard */,
+				48A52A7328DB19FF00E11299 /* PhotosViewController.swift */,
+				48A52A8528DB483200E11299 /* PhotosViewCollectionViewCell.swift */,
+				48A52A8628DB483200E11299 /* PhotosViewCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A52A6528DB16AB00E11299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A8928DB691E00E11299 /* PhotosEntity.swift */,
+				48A52A8B28DB692C00E11299 /* PhotosModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48A52A6628DB16B200E11299 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A7928DB1EDE00E11299 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		48A52A6728DB16BB00E11299 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A6D28DB18C000E11299 /* PostsView.storyboard */,
+				48A52A6F28DB18D900E11299 /* PostsViewController.swift */,
+				48A52A7D28DB1FBD00E11299 /* PostsViewTableViewCell.swift */,
+				48A52A7E28DB1FBD00E11299 /* PostsViewTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48A52A6828DB16BF00E11299 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48A52A8128DB309700E11299 /* PostsEntity.swift */,
+				48A52A8328DB30A600E11299 /* PostsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		804E99E6DBF1B656D6485BA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0309916D27E36B951B4EBE1 /* libPods-PatikaFmssHomework-3-ahmetozkan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48A52A4228DB15F500E11299 /* PatikaFmssHomework-3-ahmetozkan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48A52A5A28DB15FC00E11299 /* Build configuration list for PBXNativeTarget "PatikaFmssHomework-3-ahmetozkan" */;
+			buildPhases = (
+				0AE65A7EB83A739ADC1D8792 /* [CP] Check Pods Manifest.lock */,
+				48A52A3F28DB15F500E11299 /* Sources */,
+				48A52A4028DB15F500E11299 /* Frameworks */,
+				48A52A4128DB15F500E11299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PatikaFmssHomework-3-ahmetozkan";
+			productName = "PatikaFmssHomework-3-ahmetozkan";
+			productReference = 48F10DD628DCAAC500348FA6 /* PatikaFmssHomework-3-ahmetozkan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48A52A3B28DB15F500E11299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					48A52A4228DB15F500E11299 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 48A52A3E28DB15F500E11299 /* Build configuration list for PBXProject "PatikaFmssHomework-3-ahmetozkan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48A52A3A28DB15F500E11299;
+			productRefGroup = 48A52A3A28DB15F500E11299;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48A52A4228DB15F500E11299 /* PatikaFmssHomework-3-ahmetozkan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48A52A4128DB15F500E11299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48A52A8828DB483200E11299 /* PhotosViewCollectionViewCell.xib in Resources */,
+				48A52A6E28DB18C000E11299 /* PostsView.storyboard in Resources */,
+				48A52A5628DB15FC00E11299 /* LaunchScreen.storyboard in Resources */,
+				48A52A7228DB19F100E11299 /* PhotosView.storyboard in Resources */,
+				48A52A7628DB1A8600E11299 /* ToDoView.storyboard in Resources */,
+				48A52A5328DB15FC00E11299 /* Assets.xcassets in Resources */,
+				48A52A8028DB1FBD00E11299 /* PostsViewTableViewCell.xib in Resources */,
+				48F10E0A28DCE07B00348FA6 /* ToDoTableViewCell.xib in Resources */,
+				48A52A4E28DB15F500E11299 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AE65A7EB83A739ADC1D8792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PatikaFmssHomework-3-ahmetozkan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48A52A3F28DB15F500E11299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F10E1028DCE8EA00348FA6 /* ToDo.swift in Sources */,
+				48A52A8C28DB692C00E11299 /* PhotosModel.swift in Sources */,
+				48A52A8228DB309700E11299 /* PostsEntity.swift in Sources */,
+				48A52A7A28DB1EDE00E11299 /* PostsViewModel.swift in Sources */,
+				486E8B2D28E0635000E7B62D /* ToDoDetailViewController.swift in Sources */,
+				48A52A8A28DB691E00E11299 /* PhotosEntity.swift in Sources */,
+				48A52A6B28DB17D700E11299 /* TabBarViewController.swift in Sources */,
+				48A52A4728DB15F500E11299 /* AppDelegate.swift in Sources */,
+				48A52A5128DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodeld in Sources */,
+				48A52A8428DB30A600E11299 /* PostsModel.swift in Sources */,
+				48A52A7F28DB1FBD00E11299 /* PostsViewTableViewCell.swift in Sources */,
+				48A52A7428DB19FF00E11299 /* PhotosViewController.swift in Sources */,
+				48F10E0E28DCE74C00348FA6 /* ToDoViewModel.swift in Sources */,
+				48A52A8728DB483200E11299 /* PhotosViewCollectionViewCell.swift in Sources */,
+				48F10E0928DCE07B00348FA6 /* ToDoTableViewCell.swift in Sources */,
+				48A52A4928DB15F500E11299 /* SceneDelegate.swift in Sources */,
+				48A52A8E28DB694100E11299 /* PhotosViewModel.swift in Sources */,
+				48D0EB7128DDFA22001A0B2F /* ToDoAddViewController.swift in Sources */,
+				48A52A7028DB18D900E11299 /* PostsViewController.swift in Sources */,
+				48F10E0C28DCE6A900348FA6 /* ToDoModel.swift in Sources */,
+				48A52A7828DB1A9600E11299 /* ToDoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48A52A4C28DB15F500E11299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A52A4D28DB15F500E11299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48A52A5428DB15FC00E11299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48A52A5528DB15FC00E11299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48A52A5828DB15FC00E11299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48A52A5928DB15FC00E11299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A52A5B28DB15FC00E11299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FB02322C666B3F76FC46A3 /* Pods-PatikaFmssHomework-3-ahmetozkan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPYTGW2S6P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatikaFmssHomework-3-ahmetozkan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmetozkanio.PatikaFmssHomework-3-ahmetozkan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48A52A5C28DB15FC00E11299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A6FCB021583D280E7509F85 /* Pods-PatikaFmssHomework-3-ahmetozkan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPYTGW2S6P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PatikaFmssHomework-3-ahmetozkan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ahmetozkanio.PatikaFmssHomework-3-ahmetozkan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48A52A3E28DB15F500E11299 /* Build configuration list for PBXProject "PatikaFmssHomework-3-ahmetozkan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A52A5828DB15FC00E11299 /* Debug */,
+				48A52A5928DB15FC00E11299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48A52A5A28DB15FC00E11299 /* Build configuration list for PBXNativeTarget "PatikaFmssHomework-3-ahmetozkan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A52A5B28DB15FC00E11299 /* Debug */,
+				48A52A5C28DB15FC00E11299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		48A52A4F28DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				48A52A5028DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodel */,
+			);
+			currentVersion = 48A52A5028DB15F500E11299 /* PatikaFmssHomework_3_ahmetozkan.xcdatamodel */;
+			path = PatikaFmssHomework_3_ahmetozkan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 48A52A3B28DB15F500E11299 /* Project object */;
+}

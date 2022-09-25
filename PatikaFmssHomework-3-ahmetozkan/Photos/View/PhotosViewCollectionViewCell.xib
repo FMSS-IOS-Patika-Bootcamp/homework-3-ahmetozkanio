@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PhotosViewCollectionViewCell" id="FYE-h1-QSu" customClass="PhotosViewCollectionViewCell" customModule="PatikaFmssHomework_3_ahmetozkan" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="137"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="JLg-kO-V8y">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="137"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AES-gs-Aun">
+                        <rect key="frame" x="0.0" y="0.0" width="170" height="137"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="AES-gs-Aun" secondAttribute="bottom" id="C0W-ss-9WY"/>
+                    <constraint firstItem="AES-gs-Aun" firstAttribute="top" secondItem="JLg-kO-V8y" secondAttribute="top" id="Jnh-Xs-81M"/>
+                    <constraint firstItem="AES-gs-Aun" firstAttribute="leading" secondItem="JLg-kO-V8y" secondAttribute="leading" id="LtL-JF-hT4"/>
+                    <constraint firstAttribute="trailing" secondItem="AES-gs-Aun" secondAttribute="trailing" id="cYH-er-NLf"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="170" height="137"/>
+            <connections>
+                <outlet property="imageView" destination="AES-gs-Aun" id="vbN-A5-f4u"/>
+            </connections>
+            <point key="canvasLocation" x="385.50724637681162" y="66.629464285714278"/>
+        </collectionViewCell>
+    </objects>
+</document>

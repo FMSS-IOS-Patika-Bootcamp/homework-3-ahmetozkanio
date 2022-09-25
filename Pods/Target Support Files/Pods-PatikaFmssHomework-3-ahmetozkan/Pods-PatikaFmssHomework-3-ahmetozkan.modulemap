@@ -1,0 +1,6 @@
+module Pods_PatikaFmssHomework_3_ahmetozkan {
+  umbrella header "Pods-PatikaFmssHomework-3-ahmetozkan-umbrella.h"
+
+  export *
+  module * { export * }
+}
