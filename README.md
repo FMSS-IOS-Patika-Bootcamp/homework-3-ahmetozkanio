@@ -9,8 +9,8 @@
 
 ### Posts & Photos Screen 
  <p>
-<img src="images/page1.png" width="25%" />
-<img src="images/page2.png" width="25%" />
+<img src="images/page1.png" width="35%" />
+<img src="images/page2.png" width="35%" />
 </p>
 
 ### ToDo Screen
